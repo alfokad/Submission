@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-df = pd.read_csv("data.csv")
+df = pd.read_csv("dashboard/data.csv")
 
 # Define functions for analysis
 def max_products(df):
